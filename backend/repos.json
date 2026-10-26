@@ -1,0 +1,5 @@
+{
+  "train": ["pallets/flask", "encode/httpx", "pytest-dev/pytest", "psf/requests", "pallets/click"],
+  "validation": ["encode/starlette", "pallets/werkzeug"],
+  "test": ["tiangolo/typer", "pydantic/pydantic"]
+}

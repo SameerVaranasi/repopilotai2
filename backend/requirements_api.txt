@@ -1,0 +1,11 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.27,<1
+
+# --- Gemini chat integration (POST /chat) ---
+# Loads GEMINI_API_KEY from a local .env file at startup.
+python-dotenv>=1.0,<2
+
+# Official Google Gen AI SDK. Supports gemini-2.0-flash and gemini-2.0-pro.
+# Install wheels are available for Windows / macOS / Linux; no compilation needed.
+google-genai>=0.3,<2

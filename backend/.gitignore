@@ -1,0 +1,24 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+data/
+artifacts/
+*.zip
+
+# --- Security: never commit secrets ---
+.env
+.env.local
+.env.production
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Frontend build ---
+node_modules/
+dist/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
